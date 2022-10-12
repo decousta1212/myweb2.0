@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hide and Seek Game</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+        td{
+            height: 50px;
+            width: 50px;
+        }
+    </style>
+<script>
+    function clickme (){
+        x = document.getElementById("i1");
+        y = document.getElementById("i2");
+        z = document.getElementById("i3");
+        x.innerHTML = "Gift";
+        y.innerHTML = "Gift";
+        z.innerHTML = "Gift";
+
+
+    }
+
+</script>
+
+</head>
+
+<body>
+<center>
+    <h2 style="color:brown; font-size: 40px">Hide and Seek Game </h2>
+
+    
+    <table>
+        <tr>
+            <th>0</th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td id="i1"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td id="i2"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td id="i3"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    <br>
+    <input name="x" placeholder="Enter Your Guess ">
+    <input type="submit" onclick="clickme();">
+</center>
+   
+
+</body>
+
+</html>
